@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MeghanaLD/TextUtils-React/static/css/main.dc4d6ff2.css",
-    "main.js": "/MeghanaLD/TextUtils-React/static/js/main.64104acc.js",
-    "static/js/488.1fb5fe97.chunk.js": "/MeghanaLD/TextUtils-React/static/js/488.1fb5fe97.chunk.js",
-    "static/media/logo.svg": "/MeghanaLD/TextUtils-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/MeghanaLD/TextUtils-React/index.html",
-    "main.dc4d6ff2.css.map": "/MeghanaLD/TextUtils-React/static/css/main.dc4d6ff2.css.map",
-    "main.64104acc.js.map": "/MeghanaLD/TextUtils-React/static/js/main.64104acc.js.map",
-    "488.1fb5fe97.chunk.js.map": "/MeghanaLD/TextUtils-React/static/js/488.1fb5fe97.chunk.js.map"
+    "main.css": "/TextUtils-React/static/css/main.dc4d6ff2.css",
+    "main.js": "/TextUtils-React/static/js/main.041b38c7.js",
+    "static/js/488.1fb5fe97.chunk.js": "/TextUtils-React/static/js/488.1fb5fe97.chunk.js",
+    "static/media/logo.svg": "/TextUtils-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/TextUtils-React/index.html",
+    "main.dc4d6ff2.css.map": "/TextUtils-React/static/css/main.dc4d6ff2.css.map",
+    "main.041b38c7.js.map": "/TextUtils-React/static/js/main.041b38c7.js.map",
+    "488.1fb5fe97.chunk.js.map": "/TextUtils-React/static/js/488.1fb5fe97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.64104acc.js"
+    "static/js/main.041b38c7.js"
   ]
 }
