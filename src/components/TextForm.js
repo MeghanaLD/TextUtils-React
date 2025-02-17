@@ -17,6 +17,10 @@ export default function TextForm(props) {
     const handleOnChange=(event)=>{
             setText(event.target.value);
     }  
+    const handleCopy=()=>{
+      navigator.clipboard.writeText(text);
+      props.showAlert("Copied to Clipboard!","success");
+    }
     const handleFocus=()=>{
         setText("")
         props.showAlert("Text area is cleared","success")
@@ -36,8 +40,9 @@ export default function TextForm(props) {
       </div>
       <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to Uppercase</button>
       <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleDownClick}>Convert to Lowercase</button>
-      <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleFocus}>Clear Text</button>
+      <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleCopy}>Copy Text</button>
       <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+      <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleFocus}>Clear Text</button>
     </div>
     <div className="container my-3" >
         <h2>Your text Summary</h2>
